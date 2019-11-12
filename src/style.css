@@ -170,11 +170,11 @@ body{
     width: 150px;
 }
 
-h1, h2{
+h1, h2, h3, h4{
     display: flex;
     font-family: 'Turret Road', cursive;
     color: #370079;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 5px;
 }
 
@@ -232,6 +232,7 @@ h1, h2{
      display: flex;
      flex-direction: column;
      align-items: center;
+     justify-content: center;
  }
 
     .avatar-container{
@@ -260,15 +261,43 @@ h1, h2{
     }
 
     ._page p{
-        color: white;
+        color: #fcefed;
         font-family: 'McLaren', cursive;
         text-align: justify;
         font-size: 1.1rem;
-        margin: 5px;
+        margin: 10px;
     }
 
     #next-page{
         display: flex;
         box-sizing: border-box;
-        margin: 50px;
+        margin: 10px;
     }
+
+/* Estilos page Servicios */
+.-services{
+    width: 100px;
+    margin: 5px;
+}
+
+/* Estilos Portafolios Page */
+#img-portafolios{
+    display: flex;
+    align-self: center;
+    width: 300px;
+    margin: 20px;
+}
+
+/* Estilos Page Contacto */
+.img-rs{
+    margin: 10px;
+    width: 40px;
+}
+
+/* Estilos de la page Error */
+#img-error404{
+    display: flex;
+    align-self: center;
+    width: 300px;
+    margin: 20px;
+}

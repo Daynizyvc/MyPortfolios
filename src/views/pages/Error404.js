@@ -1,7 +1,9 @@
 let Error404 = {
     render : async () => {
         let view = `
-            <h1>This is my Error</h1>
+            <div class="_page error404">
+                <img id="img-error404" src="../../../img/error404.svg">
+            </div>
         `
         return view;
     },
