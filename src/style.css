@@ -138,7 +138,7 @@ body{
     height: 100vh;
     background-image: url(../img/cool-background.png);
     background-size: cover;
-    background-attachment: fixed;    
+    background-attachment: fixed;   
 }
 
 #page_container{
@@ -228,7 +228,7 @@ h1, h2, h3, h4{
      box-sizing: border-box;
      width: 100vw;
      height: 85vh;
-     position: relative;
+     position: fixed;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -287,8 +287,21 @@ h1, h2, h3, h4{
     width: 300px;
     margin: 20px;
 }
+    .icon-proyect{
+        display: flex;
+        width: 200px;
+        clip-path: ellipse();
+    }
 
 /* Estilos Page Contacto */
+#btn-gmail{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+}
 .img-rs{
     margin: 10px;
     width: 40px;
@@ -301,3 +314,182 @@ h1, h2, h3, h4{
     width: 300px;
     margin: 20px;
 }
+
+#formContact{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80vh;
+    border: solid 1px red;
+    position: relative;
+    float: inherit;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.inputContacto{
+    box-sizing: border-box;
+    width: 320px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#writeMail{
+    box-sizing: border-box;
+    width: 320px;
+    height: 200px;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#btnSend{
+    display: flex;
+    align-self: center;
+    width: 60px;
+    height: 20px;
+}
+
+/* Estilos Carousel */
+.carousel{
+    width: 100vw;
+    height: 80vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+  }
+  
+    .slider-container{
+      width: 100%;
+      height: 90%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px yellow;
+  
+      position: relative;
+  
+    }
+        .slide{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          height: 80%;
+          border: solid 1px yellowgreen;
+        }
+  
+        .img-slides{
+          width: 200px;
+          display: flex;
+        }
+  
+        .description{
+          display:flex;
+        }
+  
+        .icon-code{
+          width: 50px;
+        }
+  
+        .prev, .next{   
+          width: 35px;
+          height: 35px;
+          display: flex;
+          justify-content: center;
+          background: transparent;
+          border: none;
+  
+          cursor: pointer;
+          position: absolute;
+  
+          /* Animation */
+          transition: 0.6s ease;
+          user-select: none;
+          
+        }
+  
+        .next{
+          right: 0;
+          background: #fcefed;
+        }
+  
+        .prev{
+          left: 0;
+          background: #fcefed;
+        }
+  
+        .prev:hover, .next:hover{
+          background: white;
+        }
+  
+  
+  
+        .slider-arrow{
+          width: 30px;
+        }
+  
+        .text{
+          position: absolute;
+          text-align: center;
+          font-size: 2rem;
+          color: red;
+          bottom: 20%;
+  
+        }
+  
+    
+    
+  /* Estilos de los dots */
+    .center_x{
+      width: 100%;
+      height: 10%;
+      box-sizing: border-box;
+      display: flex;
+      border: solid 1px blue;
+      align-items: center;
+      justify-content: center;
+    }
+        .dot-nav{
+          width: 20px;
+          height: 20px;
+          display: flex;
+          border-radius: 50%;
+          /* border: none; */
+          background: black;
+          margin: 5px;
+  
+          transition: background-color 0.1s ease;
+        }
+        .dot-nav:hover{
+          background-color: greenyellow;
+        }
+  
+        .active-dot{
+          background-color: hotpink;
+        }
+  
+        /* Animation dot */
+        .fade{
+          /* -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s; */
+          animation-name: fade;
+          animation-duration: 2s;
+        }
+  
+        /* @-webkit-keyframes fade{
+          from {opacity: .4}
+          to   {opacity: 1}
+        } */
+  
+        @keyframes fade{
+          from {opacity: .4}
+          to   {opacity: 1}
+        }

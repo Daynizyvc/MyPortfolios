@@ -3,7 +3,7 @@ let Home = {
         let view = `
         <div class="container">  
                 <div>
-                    <img   id="logo-Yael" src="../../img/logoYaelV.png">
+                    <img id="logo-Yael" src="../../../img/logoYaelV.png">
                 </div> 
 
                 <h1>¡Hola! Soy Yael Velasco</h1>        
