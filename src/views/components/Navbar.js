@@ -8,7 +8,7 @@ let Navbar = {
         </div>
         <nav class="menuppal">
             <ul>
-                <li><a href="#/"><img class="_img -home" src="../../../img/home.png" title="Home"></a></li>
+                <li><a href="#/"><img class="_img -home" src="../../img/home.png" title="Home"></a></li>
                 <li><a href="#/aboutme"><img class="_img -about" src="../../../img/about.png"></a></li>
                 <li><a href="#/servicios"><img class="_img -servicios" src="../../../img/dato.png"></a></li>  
                 <li><a href="#/portafolios"><img class="_img -portfolios" src="../../../img/portafolio.png"></a></li>   
