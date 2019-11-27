@@ -361,7 +361,6 @@ h1, h2, h3, h4{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
   }
   
     .slider-container{
@@ -371,28 +370,52 @@ h1, h2, h3, h4{
       display: flex;
       justify-content: center;
       align-items: center;
-      border: solid 1px yellow;
-  
       position: relative;
   
     }
         .slide{
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
-          width: 90%;
-          height: 80%;
-          border: solid 1px yellowgreen;
+          width: 100%;
+          height: 100%;
         }
   
         .img-slides{
-          width: 200px;
+          width: 90%;
+          border-radius: 70px;
           display: flex;
+        }
+
+        .text{
+          display: flex;
+          width: 100%;
+          height: 10%;
+          justify-content: center;
+          font-size: 2rem;
+          color: #023655;
+          bottom: 20%;  
+          /* align-self: end; */
         }
   
         .description{
+          width: 100%;
+          height: 20%;
           display:flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+
+        .description a{
+          box-sizing: border-box;
+          text-decoration: none;
+          margin: 0px 30px;
+          font-size: 1.5rem;
+          justify-self: end;
+          position: relative;
+          bottom: 5%;
         }
   
         .icon-code{
@@ -400,13 +423,13 @@ h1, h2, h3, h4{
         }
   
         .prev, .next{   
-          width: 35px;
-          height: 35px;
+          width: 40px;
+          height: 40px;
           display: flex;
           justify-content: center;
-          background: transparent;
-          border: none;
-  
+          background: #6C6CB4;
+          border-radius: 50%;
+          border: none;  
           cursor: pointer;
           position: absolute;
   
@@ -418,32 +441,22 @@ h1, h2, h3, h4{
   
         .next{
           right: 0;
-          background: #fcefed;
         }
   
         .prev{
           left: 0;
-          background: #fcefed;
         }
   
         .prev:hover, .next:hover{
-          background: white;
+          background: #D7F2A9;
+          border:none;
         }
-  
-  
-  
+
         .slider-arrow{
           width: 30px;
         }
   
-        .text{
-          position: absolute;
-          text-align: center;
-          font-size: 2rem;
-          color: red;
-          bottom: 20%;
-  
-        }
+      
   
     
     
@@ -453,7 +466,6 @@ h1, h2, h3, h4{
       height: 10%;
       box-sizing: border-box;
       display: flex;
-      border: solid 1px blue;
       align-items: center;
       justify-content: center;
     }
@@ -462,18 +474,18 @@ h1, h2, h3, h4{
           height: 20px;
           display: flex;
           border-radius: 50%;
-          /* border: none; */
+          border: none;
           background: black;
           margin: 5px;
   
           transition: background-color 0.1s ease;
         }
         .dot-nav:hover{
-          background-color: greenyellow;
+          background-color: #6C6CB4;
         }
   
         .active-dot{
-          background-color: hotpink;
+          background-color: #024F55;
         }
   
         /* Animation dot */

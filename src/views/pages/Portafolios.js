@@ -5,26 +5,34 @@ let Portafolios = {
         <div class="carousel">
             <div class="slider-container">    
                 <div id="slide-0" class="slide fade">
-                   <img class="img-slides" src="././img/Trivia.png">
                    <div class="text">Triviando</div>
+                   <img class="img-slides" src="././img/trivia.jpg">
                    <div class="description">
                        <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace">Código</a>
-                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace" >appWeb</a>
+                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace" >Demo</a>
                    </div>
                 </div>
     
                 <div id="slide-1" class="slide fade">
-                    <img class="img-slides" src="././img/cipher.jpg">
                     <div class="text">Cipher</div>
+                    <img class="img-slides" src="././img/cipher.jpg">
+                    <div class="description">
+                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace">Código</a>
+                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace" >Demo</a>
+                   </div>
                 </div>
     
                 <div id="slide-2" class="slide fade">
-                    <img class="img-slides" src="././img/pokemon.png">
                     <div class="text">Data Lovers</div>
+                    <img class="img-slides" src="././img/pokemon.png">
+                    <div class="description">
+                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace">Código</a>
+                       <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace" >Demo</a>
+                   </div>
                 </div>
     
-                <button class="prev" id="btnLeft"><img class="slider-arrow center_y" src="././img/flechai.png"></button>
-                <button class="next" id="btnRight"><img class="slider-arrow center_y" src="././img/flechad.png"></button> 
+                <button class="prev" id="btnLeft"><img class="slider-arrow center_y" src="././img/left.png"></button>
+                <button class="next" id="btnRight"><img class="slider-arrow center_y" src="././img/right.png"></button> 
             </div>
 
             <div id="dots-wrapper" class="center_x">
@@ -43,21 +51,13 @@ let Portafolios = {
 const btnLeft = document.getElementById("btnLeft");
 const btnRight = document.getElementById("btnRight");
 
-const prueba = () =>{
-    console.log("Hola, soy la Izquierda")
-}
-
-const pruebaA = () =>{
-    console.log("Holi, I'm the button")
-}
-
 let slider_index = 0;
 
 let show_slide = (index) =>{
     let slides = document.querySelectorAll('.slide');
     let dots = document.querySelectorAll('.dot-nav');
-    console.log(slides);
-    console.log(dots);
+    // console.log(slides);
+    // console.log(dots);
 
     if(index >= slides.length){
         slider_index=0;

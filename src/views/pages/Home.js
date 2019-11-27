@@ -38,7 +38,7 @@ let Home = {
             },200);
         };
 
-        writing('<Soy Desarrollador Web/>')
+        writing('<Soy Desarrolladora Web/>')
 
             }
 }
