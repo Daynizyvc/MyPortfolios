@@ -23,8 +23,8 @@ let Portafolios = {
                 </div>
     
                 <div id="slide-2" class="slide fade">
-                    <div class="text">Data Lovers</div>
                     <img class="img-slides" src="././img/pokemon.png">
+                    <div class="text">Data Lovers</div>
                     <div class="description">
                        <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace">Código</a>
                        <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace" >Demo</a>
@@ -40,6 +40,7 @@ let Portafolios = {
                 <div class="dot-nav"></div>
                 <div class="dot-nav"></div>
             </div>
+            <a id="next-page" href="#/contacto"><img class="_img -next" src="././img/next.png"></a>
         </div>
         `
         return view;
