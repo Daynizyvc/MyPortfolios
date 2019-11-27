@@ -5,7 +5,7 @@ let Portafolios = {
         <div class="carousel">
             <div class="slider-container">    
                 <div id="slide-0" class="slide fade">
-                   <img class="img-slides" src="../../../img/Trivia.png">
+                   <img class="img-slides" src="././img/Trivia.png">
                    <div class="text">Triviando</div>
                    <div class="description">
                        <a href="https://github.com/Daynizyvc?tab=repositories" class="enlace">Código</a>
@@ -14,17 +14,17 @@ let Portafolios = {
                 </div>
     
                 <div id="slide-1" class="slide fade">
-                    <img class="img-slides" src="../../../img/cipher.jpg">
+                    <img class="img-slides" src="././img/cipher.jpg">
                     <div class="text">Cipher</div>
                 </div>
     
                 <div id="slide-2" class="slide fade">
-                    <img class="img-slides" src="../../../img/pokemon.png">
+                    <img class="img-slides" src="././img/pokemon.png">
                     <div class="text">Data Lovers</div>
                 </div>
     
-                <button class="prev" id="btnLeft"><img class="slider-arrow center_y" src="../../../img/flechai.png"></button>
-                <button class="next" id="btnRight"><img class="slider-arrow center_y" src="../../../img/flechad.png"></button> 
+                <button class="prev" id="btnLeft"><img class="slider-arrow center_y" src="././img/flechai.png"></button>
+                <button class="next" id="btnRight"><img class="slider-arrow center_y" src="././img/flechad.png"></button> 
             </div>
 
             <div id="dots-wrapper" class="center_x">
